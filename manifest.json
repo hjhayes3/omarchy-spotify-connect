@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "hjhayes3.spotify-connect",
+  "name": "Omarchy Spotify Connect",
+  "version": "1.0.0",
+  "author": "HJ Hayes",
+  "license": "MIT",
+  "description": "Select the Spotify Connect device used for current playback.",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "Panel.qml" },
+  "barWidget": {
+    "displayName": "Spotify Connect",
+    "description": "View Spotify Connect devices and transfer playback.",
+    "category": "Media",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": { "refreshIntervalSec": 30 },
+    "schema": [
+      { "key": "refreshIntervalSec", "type": "number", "label": "Refresh interval (seconds)" }
+    ]
+  }
+}

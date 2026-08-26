@@ -1,0 +1,3 @@
+"""Omarchy Spotify Connect backend."""
+
+__version__ = "1.0.0"
