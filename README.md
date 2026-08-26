@@ -1,3 +1,7 @@
+# Current issues - Google Home speakers do not appear in the list of devices
+# available in the plugin.  This is a critical issue, and if we can't fix its
+# this project is worthless.
+
 # Omarchy Spotify Connect
 
 A small Omarchy shell plugin for choosing the Spotify Connect device that is
